@@ -1,0 +1,110 @@
+body {
+    font-family: 'inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.fw-bold {
+    font-family: 'Antonio', sans-serif;
+}
+
+.nav-underline {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-light .navbar-toggler-icon {
+    filter: invert(1)
+}
+
+.navbar.toggler {
+    border-color: rgba (255, 255, 255, 0.7);
+}
+
+.hero-date-time {
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    color: white;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    opacity: 0.9;
+}
+
+.hero {
+    height: 100vh;
+    background: url('./Images/brian-kyed-8NpelZe-EzM-unsplash.jpg') center/cover no-repeat;
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+}
+
+.carousel-item .d-flex {
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+    .carousel-item .d-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .card {
+        width: 90% !important;
+    }
+}
+
+#galleryCarousal img {
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    #galleryCarousal img {
+        height: 250px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .testimonials p {
+        padding: 0 10px;
+    }
+}
+
+.newsletter .d-flex {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+    .newsletter input {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .newsletter button {
+        width: 100%;
+    }
+}
+
+footer {
+    background: #f8f8f8;
+}
